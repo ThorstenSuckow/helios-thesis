@@ -1,0 +1,100 @@
+{
+  "context": {
+    "date": "2026-09-19T16:50:58+02:00",
+    "host_name": "Mac.fritz.box",
+    "executable": "/Users/thorstensuckow/CLionProjects/helios-thesis/helios-thesis/src/benchmarks/040-ecs.speicherorganisation-vergleich/../cmake-build-relwdbginfo/040-ecs.speicherorganisation-vergleich_main_benchmark",
+    "num_cpus": 18,
+    "mhz_per_cpu": 24,
+    "cpu_scaling_enabled": false,
+    "caches": [
+      {
+        "type": "Data",
+        "level": 1,
+        "size": 65536,
+        "num_sharing": 0
+      },
+      {
+        "type": "Instruction",
+        "level": 1,
+        "size": 131072,
+        "num_sharing": 0
+      },
+      {
+        "type": "Unified",
+        "level": 2,
+        "size": 8388608,
+        "num_sharing": 1
+      }
+    ],
+    "load_avg": [4.17725,3.75684,3.86426],
+    "library_version": "v1.9.4",
+    "library_build_type": "release",
+    "json_schema_version": 1
+  },
+  "benchmarks": [
+    {
+      "name": "BM_Polymorphic/10000/iterations:10/repeats:10_mean",
+      "family_index": 0,
+      "per_family_instance_index": 0,
+      "run_name": "BM_Polymorphic/10000/iterations:10/repeats:10",
+      "run_type": "aggregate",
+      "repetitions": 10,
+      "threads": 1,
+      "aggregate_name": "mean",
+      "aggregate_unit": "time",
+      "iterations": 10,
+      "real_time": 1.0294582461938262e+04,
+      "cpu_time": 1.0299999999996424e+04,
+      "time_unit": "ns",
+      "items_per_second": 9.7343943893786955e+08
+    },
+    {
+      "name": "BM_Polymorphic/10000/iterations:10/repeats:10_median",
+      "family_index": 0,
+      "per_family_instance_index": 0,
+      "run_name": "BM_Polymorphic/10000/iterations:10/repeats:10",
+      "run_type": "aggregate",
+      "repetitions": 10,
+      "threads": 1,
+      "aggregate_name": "median",
+      "aggregate_unit": "time",
+      "iterations": 10,
+      "real_time": 1.0066648246720433e+04,
+      "cpu_time": 1.0049999999994787e+04,
+      "time_unit": "ns",
+      "items_per_second": 9.9504950495100737e+08
+    },
+    {
+      "name": "BM_Polymorphic/10000/iterations:10/repeats:10_stddev",
+      "family_index": 0,
+      "per_family_instance_index": 0,
+      "run_name": "BM_Polymorphic/10000/iterations:10/repeats:10",
+      "run_type": "aggregate",
+      "repetitions": 10,
+      "threads": 1,
+      "aggregate_name": "stddev",
+      "aggregate_unit": "time",
+      "iterations": 10,
+      "real_time": 5.5732149116110099e+02,
+      "cpu_time": 5.7542255005464233e+02,
+      "time_unit": "ns",
+      "items_per_second": 5.1051152072283477e+07
+    },
+    {
+      "name": "BM_Polymorphic/10000/iterations:10/repeats:10_cv",
+      "family_index": 0,
+      "per_family_instance_index": 0,
+      "run_name": "BM_Polymorphic/10000/iterations:10/repeats:10",
+      "run_type": "aggregate",
+      "repetitions": 10,
+      "threads": 1,
+      "aggregate_name": "cv",
+      "aggregate_unit": "percentage",
+      "iterations": 10,
+      "real_time": 5.4137357510288822e-02,
+      "cpu_time": 5.5866266995615740e-02,
+      "time_unit": "ns",
+      "items_per_second": 5.2444096705169405e-02
+    }
+  ]
+}

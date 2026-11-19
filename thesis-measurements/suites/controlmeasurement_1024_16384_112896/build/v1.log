@@ -1,0 +1,19 @@
+-- Using local helios-core: F:/thorstensuckow/helios-thesis/helios-ecs/../helios-core
+-- Using local helios-math: F:/thorstensuckow/helios-thesis/helios-engine/cmake/../../helios-math
+-- Could NOT find PkgConfig (missing: PKG_CONFIG_EXECUTABLE) 
+-- Including Win32 support
+-- Glad Library 'glad_gl_core_46'
+-- Configuring done (1.5s)
+-- Generating done (0.3s)
+-- Build files have been written to: F:/thorstensuckow/helios-thesis/master-thesis/src/thesis-scenarios/cmake-build-suite/htrue
+[0/2] Re-checking globbed directories...
+[1/611] Generating CXX dyndep file _deps\helios-math-build\CMakeFiles\helios_math.dir\CXX.dd
+[2/594] Generating CXX dyndep file _deps\helios-core-build\CMakeFiles\helios_core.dir\CXX.dd
+[3/523] Generating CXX dyndep file _deps\helios-ecs-build\CMakeFiles\helios_ecs.dir\CXX.dd
+[4/412] Generating CXX dyndep file _deps\helios-engine-build\CMakeFiles\helios_engine.dir\CXX.dd
+[5/147] Generating CXX dyndep file _deps\helios-glfw-build\CMakeFiles\helios_glfw.dir\CXX.dd
+[6/137] Generating CXX dyndep file _deps\helios-physics-build\CMakeFiles\helios_physics.dir\CXX.dd
+[7/113] Generating CXX dyndep file _deps\helios-opengl-build\CMakeFiles\helios_opengl.dir\CXX.dd
+[8/86] Generating CXX dyndep file _deps\helios-imgui-build\CMakeFiles\helios_imgui.dir\CXX.dd
+[9/72] Generating CXX dyndep file _deps\helios-gameplay-build\CMakeFiles\helios_gameplay.dir\CXX.dd
+[10/49] Generating CXX dyndep file CMakeFiles\v1_main.dir\CXX.dd

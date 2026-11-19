@@ -1,0 +1,218 @@
+-- Using local helios-core: F:/thorstensuckow/helios-thesis/helios-ecs/../helios-core
+-- Using local helios-math: F:/thorstensuckow/helios-thesis/helios-engine/cmake/../../helios-math
+-- Could NOT find PkgConfig (missing: PKG_CONFIG_EXECUTABLE) 
+-- Including Win32 support
+-- Glad Library 'glad_gl_core_46'
+-- Configuring done (0.7s)
+-- Generating done (0.2s)
+-- Build files have been written to: F:/thorstensuckow/helios-thesis/master-thesis/src/thesis-scenarios/cmake-build-suite/htrue
+[0/2] Re-checking globbed directories...
+[1/612] Generating CXX dyndep file _deps\helios-math-build\CMakeFiles\helios_math.dir\CXX.dd
+[2/595] Generating CXX dyndep file _deps\helios-core-build\CMakeFiles\helios_core.dir\CXX.dd
+[3/524] Scanning F:\thorstensuckow\helios-thesis\master-thesis\src\thesis-scenarios\src\v6\src\v6_main.cpp for CXX dependencies
+[4/524] Generating CXX dyndep file _deps\helios-ecs-build\CMakeFiles\helios_ecs.dir\CXX.dd
+[5/413] Generating CXX dyndep file _deps\helios-engine-build\CMakeFiles\helios_engine.dir\CXX.dd
+[6/148] Generating CXX dyndep file _deps\helios-glfw-build\CMakeFiles\helios_glfw.dir\CXX.dd
+[7/138] Generating CXX dyndep file _deps\helios-physics-build\CMakeFiles\helios_physics.dir\CXX.dd
+[8/114] Generating CXX dyndep file _deps\helios-opengl-build\CMakeFiles\helios_opengl.dir\CXX.dd
+[9/87] Generating CXX dyndep file _deps\helios-imgui-build\CMakeFiles\helios_imgui.dir\CXX.dd
+[10/73] Generating CXX dyndep file _deps\helios-gameplay-build\CMakeFiles\helios_gameplay.dir\CXX.dd
+[11/50] Generating CXX dyndep file CMakeFiles\v6_main.dir\CXX.dd
+[12/14] Building CXX object CMakeFiles\v6_main.dir\src\v6\src\v6_main.cpp.obj
+F:\thorstensuckow\helios-thesis\master-thesis\src\thesis-scenarios\src\v6\src\v6_main.cpp(76): warning C4100: "particle": nicht referenzierter Parameter
+F:\thorstensuckow\helios-thesis\master-thesis\src\thesis-scenarios\src\v6\src\v6_main.cpp(76): note: der Vorlageninstanziierungskontext (der ?lteste zuerst) ist
+F:\thorstensuckow\helios-thesis\master-thesis\src\thesis-scenarios\src\v6\src\v6_main.cpp(106): note: beim Kompilieren der Klasse Vorlage-Memberfunktion "std::function<void (helios::ecs::entity::EntityManager<TTargetHandle> &,std::span<const helios::physics::collision::commands::CollisionCommand<TEmitterHandle>,18446744073709551615>,const helios::engine::runtime::gameloop::types::UpdateContext &)>::function(_Fx &&)"
+        with
+        [
+            TTargetHandle=main::Particle,
+            TEmitterHandle=main::GameObject
+        ]
+F:\thorstensuckow\helios-thesis\master-thesis\src\thesis-scenarios\src\v6\src\v6_main.cpp(106): note: beim Verarbeiten des Standardvorlagenarguments von "std::function<void (helios::ecs::entity::EntityManager<TTargetHandle> &,std::span<const helios::physics::collision::commands::CollisionCommand<TEmitterHandle>,18446744073709551615>,const helios::engine::runtime::gameloop::types::UpdateContext &)>::function(_Fx &&)"
+        with
+        [
+            TTargetHandle=main::Particle,
+            TEmitterHandle=main::GameObject
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\functional(1102): note: Siehe Verweis auf die gerade kompilierte Alias Vorlage-Instanziierung "std::_Func_class<_Ret,helios::ecs::entity::EntityManager<TTargetHandle> &,std::span<const helios::physics::collision::commands::CollisionCommand<TEmitterHandle>,18446744073709551615>,const helios::engine::runtime::gameloop::types::UpdateContext &>::_Enable_if_callable_t<thesis::util::collCb::<lambda_1>&,std::function<void (helios::ecs::entity::EntityManager<TTargetHandle> &,std::span<const helios::physics::collision::commands::CollisionCommand<TEmitterHandle>,18446744073709551615>,const helios::engine::runtime::gameloop::types::UpdateContext &)>>".
+        with
+        [
+            _Ret=void,
+            TTargetHandle=main::Particle,
+            TEmitterHandle=main::GameObject
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\functional(940): note: Weitere Informationen finden Sie in der Referenz zur Kompilierung der Variablenvorlage "const bool conjunction_v<std::negation<std::is_same<`thesis::util::collCb<helios::ecs::common::types::EntityHandle<thesis::handles::ParticleHandleDomain>,`main'::`2'::<lambda_3> &>'::`2'::<lambda_1>,std::function<void __cdecl(helios::ecs::entity::EntityManager<helios::ecs::common::types::EntityHandle<thesis::handles::ParticleHandleDomain> > &,std::span<helios::physics::collision::commands::CollisionCommand<helios::ecs::common::types::EntityHandle<thesis::handles::GameObjectHandleDomain> > const ,-1>,helios::engine::runtime::gameloop::types::UpdateContext const &)> > >,std::_Is_invocable_r<void,`thesis::util::collCb<helios::ecs::common::types::EntityHandle<thesis::handles::ParticleHandleDomain>,`main'::`2'::<lambda_3> &>'::`2'::<lambda_1> &,helios::ecs::entity::EntityManager<helios::ecs::common::types::EntityHandle<thesis::handles::ParticleHandleDomain> > &,std::span<helios::physics::collision::commands::CollisionCommand<helios::ecs::common::types::EntityHandle<thesis::handles::GameObjectHandleDomain> > const ,-1>,helios::engine::runtime::gameloop::types::UpdateContext const &> >".
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\functional(940): note: Siehe Verweis auf die gerade kompilierte Klasse Vorlage-Instanziierung "std::_Is_invocable_r<_Ret,thesis::util::collCb::<lambda_1> &,helios::ecs::entity::EntityManager<TTargetHandle> &,std::span<const helios::physics::collision::commands::CollisionCommand<TEmitterHandle>,18446744073709551615>,const helios::engine::runtime::gameloop::types::UpdateContext &>".
+        with
+        [
+            _Ret=void,
+            TTargetHandle=main::Particle,
+            TEmitterHandle=main::GameObject
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\type_traits(1827): note: Siehe Verweis auf die gerade kompilierte Alias Vorlage-Instanziierung "std::_Is_invocable_r_<_Rx,_Callable,helios::ecs::entity::EntityManager<TTargetHandle>&,std::span<const helios::physics::collision::commands::CollisionCommand<TEmitterHandle>,18446744073709551615>,const helios::engine::runtime::gameloop::types::UpdateContext&>".
+        with
+        [
+            _Rx=void,
+            _Callable=thesis::util::collCb::<lambda_1> &,
+            TTargetHandle=main::Particle,
+            TEmitterHandle=main::GameObject
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\type_traits(1789): note: Siehe Verweis auf die gerade kompilierte Alias Vorlage-Instanziierung "std::_Decltype_invoke_nonzero<_Callable,helios::ecs::entity::EntityManager<TTargetHandle>&,std::span<const helios::physics::collision::commands::CollisionCommand<TEmitterHandle>,18446744073709551615>,const helios::engine::runtime::gameloop::types::UpdateContext&>".
+        with
+        [
+            _Callable=thesis::util::collCb::<lambda_1> &,
+            TTargetHandle=main::Particle,
+            TEmitterHandle=main::GameObject
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\type_traits(1785): note: beim Kompilieren der Klasse Vorlage-Memberfunktion "unknown-type std::_Invoker_functor::_Call(_Callable &&,_Types ...) noexcept(<expr>)"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\type_traits(1576): note: Siehe Verweis auf die gerade kompilierte Instanziierung "void thesis::util::collCb::<lambda_1>::operator ()<helios::ecs::entity::EntityManager<TTargetHandle>,std::span<const helios::physics::collision::commands::CollisionCommand<TEmitterHandle>,18446744073709551615>>(_T1 &,_T2,const helios::engine::runtime::gameloop::types::UpdateContext &)" der Funktions-Vorlage.
+        with
+        [
+            TTargetHandle=main::Particle,
+            TEmitterHandle=main::GameObject,
+            _T1=helios::ecs::entity::EntityManager<main::Particle>,
+            _T2=std::span<const helios::physics::collision::commands::CollisionCommand<main::GameObject>,18446744073709551615>
+        ]
+F:\thorstensuckow\helios-thesis\master-thesis\src\thesis-scenarios\src\lib\util.ixx(238): note: Siehe Verweis auf die gerade kompilierte Instanziierung "void thesis::util::createParticles<main::Particle,main::<lambda_3>&>(helios::ecs::entity::EntityManager<TTargetHandle> &,const uint32_t,const helios::math::vec3f,TFunc,const uint32_t)" der Funktions-Vorlage.
+        with
+        [
+            TTargetHandle=main::Particle,
+            TFunc=main::<lambda_3> &
+        ]
+F:\thorstensuckow\helios-thesis\master-thesis\src\thesis-scenarios\src\lib\util.ixx(146): note: Siehe Verweis auf die gerade kompilierte Instanziierung "unknown-type std::invoke(_Callable &&,_Ty1 &&,_Types2 ...) noexcept(<expr>)" der Funktions-Vorlage.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\type_traits(1677): note: beim Kompilieren der Klasse Vorlage-Memberfunktion "unknown-type std::_Invoker_functor::_Call(_Callable &&,_Types ...) noexcept(<expr>)"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\type_traits(1576): note: Siehe Verweis auf die gerade kompilierte Instanziierung "void main::<lambda_3>::operator ()<helios::ecs::entity::Entity<helios::ecs::entity::EntityManager<TTargetHandle>>>(_T1 &) const" der Funktions-Vorlage.
+        with
+        [
+            TTargetHandle=main::Particle,
+            _T1=helios::ecs::entity::Entity<helios::ecs::entity::EntityManager<main::Particle>>
+        ]
+F:\thorstensuckow\helios-thesis\master-thesis\src\thesis-scenarios\src\v6\src\v6_main.cpp(72): warning C4100: "gameObject": nicht referenzierter Parameter
+F:\thorstensuckow\helios-thesis\master-thesis\src\thesis-scenarios\src\v6\src\v6_main.cpp(72): note: der Vorlageninstanziierungskontext (der ?lteste zuerst) ist
+F:\thorstensuckow\helios-thesis\master-thesis\src\thesis-scenarios\src\v6\src\v6_main.cpp(121): note: Siehe Verweis auf die gerade kompilierte Instanziierung "void thesis::util::createGameObjects<main::GameObject,main::<lambda_1>&>(helios::ecs::entity::EntityManager<THandle> &,TFunc)" der Funktions-Vorlage.
+        with
+        [
+            THandle=main::GameObject,
+            TFunc=main::<lambda_1> &
+        ]
+F:\thorstensuckow\helios-thesis\master-thesis\src\thesis-scenarios\src\lib\util.ixx(93): note: Siehe Verweis auf die gerade kompilierte Instanziierung "unknown-type std::invoke(_Callable &&,_Ty1 &&,_Types2 ...) noexcept(<expr>)" der Funktions-Vorlage.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\type_traits(1677): note: beim Kompilieren der Klasse Vorlage-Memberfunktion "unknown-type std::_Invoker_functor::_Call(_Callable &&,_Types ...) noexcept(<expr>)"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\type_traits(1576): note: Siehe Verweis auf die gerade kompilierte Instanziierung "void main::<lambda_1>::operator ()<helios::ecs::entity::Entity<helios::ecs::entity::EntityManager<THandle>>>(_T1 &) const" der Funktions-Vorlage.
+        with
+        [
+            THandle=main::GameObject,
+            _T1=helios::ecs::entity::Entity<helios::ecs::entity::EntityManager<main::GameObject>>
+        ]
+F:\thorstensuckow\helios-thesis\master-thesis\src\thesis-scenarios\src\v6\src\v6_main.cpp(74): warning C4100: "border": nicht referenzierter Parameter
+F:\thorstensuckow\helios-thesis\master-thesis\src\thesis-scenarios\src\v6\src\v6_main.cpp(74): note: der Vorlageninstanziierungskontext (der ?lteste zuerst) ist
+F:\thorstensuckow\helios-thesis\master-thesis\src\thesis-scenarios\src\v6\src\v6_main.cpp(125): note: Siehe Verweis auf die gerade kompilierte Instanziierung "void thesis::util::createBoundaries<main::GameObject,main::<lambda_2>&>(helios::ecs::entity::EntityManager<THandle> &,TFunc)" der Funktions-Vorlage.
+        with
+        [
+            THandle=main::GameObject,
+            TFunc=main::<lambda_2> &
+        ]
+F:\thorstensuckow\helios-thesis\master-thesis\src\thesis-scenarios\src\lib\util.ixx(219): note: Siehe Verweis auf die gerade kompilierte Instanziierung "unknown-type std::invoke(_Callable &&,_Ty1 &&,_Types2 ...) noexcept(<expr>)" der Funktions-Vorlage.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\type_traits(1677): note: beim Kompilieren der Klasse Vorlage-Memberfunktion "unknown-type std::_Invoker_functor::_Call(_Callable &&,_Types ...) noexcept(<expr>)"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\type_traits(1576): note: Siehe Verweis auf die gerade kompilierte Instanziierung "void main::<lambda_2>::operator ()<helios::ecs::entity::Entity<helios::ecs::entity::EntityManager<THandle>>>(_T1 &) const" der Funktions-Vorlage.
+        with
+        [
+            THandle=main::GameObject,
+            _T1=helios::ecs::entity::Entity<helios::ecs::entity::EntityManager<main::GameObject>>
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(781): warning C4530: C++-Handler verwendet, aber Entladesemantik ist nicht aktiviert. Geben Sie /EHsc an.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\__msvc_ostream.hpp(781): note: der Vorlageninstanziierungskontext (der ?lteste zuerst) ist
+F:\thorstensuckow\helios-thesis\master-thesis\src\thesis-scenarios\src\lib\config.ixx(98): note: Siehe Verweis auf die gerade kompilierte Instanziierung "std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)" der Funktions-Vorlage.
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(462): warning C4244: "Argument": Konvertierung von "int" in "const TNumericType", m?glicher Datenverlust
+        with
+        [
+            TNumericType=float
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(462): note: der Vorlageninstanziierungskontext (der ?lteste zuerst) ist
+F:\thorstensuckow\helios-thesis\master-thesis\src\thesis-scenarios\src\v6\src\v6_main.cpp(125): note: Siehe Verweis auf die gerade kompilierte Instanziierung "void thesis::util::createBoundaries<main::GameObject,main::<lambda_2>&>(helios::ecs::entity::EntityManager<THandle> &,TFunc)" der Funktions-Vorlage.
+        with
+        [
+            THandle=main::GameObject,
+            TFunc=main::<lambda_2> &
+        ]
+F:\thorstensuckow\helios-thesis\master-thesis\src\thesis-scenarios\src\lib\util.ixx(177): note: Siehe Verweis auf die gerade kompilierte Instanziierung "TComponent &helios::ecs::entity::Entity<helios::ecs::entity::EntityManager<THandle>>::add<helios::engine::core::components::Vec3Component<helios::engine::spatial::components::Scale3DComponentDomain,float,helios::engine::core::types::Local>,int&,const T&,const T&>(int &,const T &,const T &)" der Funktions-Vorlage.
+        with
+        [
+            TComponent=helios::engine::core::components::Vec3Component<helios::engine::spatial::components::Scale3DComponentDomain,float,helios::engine::core::types::Local>,
+            THandle=main::GameObject,
+            T=float
+        ]
+F:\thorstensuckow\helios-thesis\helios-ecs\src\entity\Entity.ixx(123): note: Siehe Verweis auf die gerade kompilierte Instanziierung "TComponent *helios::ecs::entity::EntityManager<THandle>::ensureAndEmplace<TComponent,int&,const T&,const T&>(const helios::ecs::common::types::EntityHandle<thesis::handles::GameObjectHandleDomain>,int &,const T &,const T &)" der Funktions-Vorlage.
+        with
+        [
+            TComponent=helios::engine::core::components::Vec3Component<helios::engine::spatial::components::Scale3DComponentDomain,float,helios::engine::core::types::Local>,
+            THandle=main::GameObject,
+            T=float
+        ]
+F:\thorstensuckow\helios-thesis\helios-ecs\src\entity\EntityManager.ixx(384): note: Siehe Verweis auf die gerade kompilierte Instanziierung "TComponent *helios::ecs::entity::EntityManager<THandle>::emplace<TComponent,int&,const T&,const T&>(const helios::ecs::common::types::EntityHandle<thesis::handles::GameObjectHandleDomain>,int &,const T &,const T &)" der Funktions-Vorlage.
+        with
+        [
+            TComponent=helios::engine::core::components::Vec3Component<helios::engine::spatial::components::Scale3DComponentDomain,float,helios::engine::core::types::Local>,
+            THandle=main::GameObject,
+            T=float
+        ]
+F:\thorstensuckow\helios-thesis\helios-ecs\src\entity\EntityManager.ixx(377): note: Siehe Verweis auf die gerade kompilierte Instanziierung "TComponent *helios::ecs::entity::storage::SparseSet<THandle,TComponent>::emplace<int&,const T&,const T&>(const helios::ecs::common::types::EntityId,int &,const T &,const T &)" der Funktions-Vorlage.
+        with
+        [
+            TComponent=helios::engine::core::components::Vec3Component<helios::engine::spatial::components::Scale3DComponentDomain,float,helios::engine::core::types::Local>,
+            THandle=main::GameObject,
+            T=float
+        ]
+F:\thorstensuckow\helios-thesis\helios-ecs\src\entity\storage\SparseSet.ixx(348): note: Siehe Verweis auf die gerade kompilierte Instanziierung "helios::engine::core::components::Vec3Component<helios::engine::spatial::components::Scale3DComponentDomain,float,helios::engine::core::types::Local> &std::vector<TComponent,std::allocator<TComponent>>::emplace_back<int&,const T&,const T&>(int &,const T &,const T &)" der Funktions-Vorlage.
+        with
+        [
+            TComponent=helios::engine::core::components::Vec3Component<helios::engine::spatial::components::Scale3DComponentDomain,float,helios::engine::core::types::Local>,
+            T=float
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(924): note: Siehe Verweis auf die gerade kompilierte Instanziierung "_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<int&,const T&,const T&>(int &,const T &,const T &)" der Funktions-Vorlage.
+        with
+        [
+            _Ty=helios::engine::core::components::Vec3Component<helios::engine::spatial::components::Scale3DComponentDomain,float,helios::engine::core::types::Local>,
+            T=float
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(845): note: Siehe Verweis auf die gerade kompilierte Instanziierung "_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<int&,const T&,const T&>(int &,const T &,const T &)" der Funktions-Vorlage.
+        with
+        [
+            _Ty=helios::engine::core::components::Vec3Component<helios::engine::spatial::components::Scale3DComponentDomain,float,helios::engine::core::types::Local>,
+            T=float
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(863): note: Siehe Verweis auf die gerade kompilierte Instanziierung "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,int&,const T&,const T&>(_Alloc &,_Objty *const ,int &,const T &,const T &)" der Funktions-Vorlage.
+        with
+        [
+            _Alloc=std::allocator<helios::engine::core::components::Vec3Component<helios::engine::spatial::components::Scale3DComponentDomain,float,helios::engine::core::types::Local>>,
+            _Ty=helios::engine::core::components::Vec3Component<helios::engine::spatial::components::Scale3DComponentDomain,float,helios::engine::core::types::Local>,
+            T=float,
+            _Objty=helios::engine::core::components::Vec3Component<helios::engine::spatial::components::Scale3DComponentDomain,float,helios::engine::core::types::Local>
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(730): note: Siehe Verweis auf die gerade kompilierte Instanziierung "_Ty *std::construct_at<_Objty,int&,const T&,const T&>(_Ty *const ,int &,const T &,const T &) noexcept(<expr>)" der Funktions-Vorlage.
+        with
+        [
+            _Ty=helios::engine::core::components::Vec3Component<helios::engine::spatial::components::Scale3DComponentDomain,float,helios::engine::core::types::Local>,
+            _Objty=helios::engine::core::components::Vec3Component<helios::engine::spatial::components::Scale3DComponentDomain,float,helios::engine::core::types::Local>,
+            T=float
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(463): warning C4244: "Argument": Konvertierung von "int" in "const TNumericType", m?glicher Datenverlust
+        with
+        [
+            TNumericType=float
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(463): note: der Vorlageninstanziierungskontext (der ?lteste zuerst) ist
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(863): note: Siehe Verweis auf die gerade kompilierte Instanziierung "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,int&,const T&,const T&>(_Alloc &,_Objty *const ,int &,const T &,const T &)" der Funktions-Vorlage.
+        with
+        [
+            _Alloc=std::allocator<helios::engine::core::components::Vec3Component<helios::engine::spatial::components::Scale3DComponentDomain,float,helios::engine::core::types::Local>>,
+            _Ty=helios::engine::core::components::Vec3Component<helios::engine::spatial::components::Scale3DComponentDomain,float,helios::engine::core::types::Local>,
+            T=float,
+            _Objty=helios::engine::core::components::Vec3Component<helios::engine::spatial::components::Scale3DComponentDomain,float,helios::engine::core::types::Local>
+        ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(730): note: Siehe Verweis auf die gerade kompilierte Instanziierung "_Ty *std::construct_at<_Objty,int&,const T&,const T&>(_Ty *const ,int &,const T &,const T &) noexcept(false)" der Funktions-Vorlage.
+        with
+        [
+            _Ty=helios::engine::core::components::Vec3Component<helios::engine::spatial::components::Scale3DComponentDomain,float,helios::engine::core::types::Local>,
+            _Objty=helios::engine::core::components::Vec3Component<helios::engine::spatial::components::Scale3DComponentDomain,float,helios::engine::core::types::Local>,
+            T=float
+        ]
+[13/14] Linking CXX executable scenarios\src\v6\src\v6_main.exe

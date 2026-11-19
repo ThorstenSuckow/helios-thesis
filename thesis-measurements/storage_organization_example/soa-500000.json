@@ -1,0 +1,100 @@
+{
+  "context": {
+    "date": "2026-09-19T16:51:08+02:00",
+    "host_name": "Mac.fritz.box",
+    "executable": "/Users/thorstensuckow/CLionProjects/helios-thesis/helios-thesis/src/benchmarks/040-ecs.speicherorganisation-vergleich/../cmake-build-relwdbginfo/040-ecs.speicherorganisation-vergleich_main_benchmark",
+    "num_cpus": 18,
+    "mhz_per_cpu": 24,
+    "cpu_scaling_enabled": false,
+    "caches": [
+      {
+        "type": "Data",
+        "level": 1,
+        "size": 65536,
+        "num_sharing": 0
+      },
+      {
+        "type": "Instruction",
+        "level": 1,
+        "size": 131072,
+        "num_sharing": 0
+      },
+      {
+        "type": "Unified",
+        "level": 2,
+        "size": 8388608,
+        "num_sharing": 1
+      }
+    ],
+    "load_avg": [4.14941,3.76465,3.86523],
+    "library_version": "v1.9.4",
+    "library_build_type": "release",
+    "json_schema_version": 1
+  },
+  "benchmarks": [
+    {
+      "name": "BM_SOA/500000/iterations:10/repeats:10_mean",
+      "family_index": 0,
+      "per_family_instance_index": 0,
+      "run_name": "BM_SOA/500000/iterations:10/repeats:10",
+      "run_type": "aggregate",
+      "repetitions": 10,
+      "threads": 1,
+      "aggregate_name": "mean",
+      "aggregate_unit": "time",
+      "iterations": 10,
+      "real_time": 2.9221832868643105e+05,
+      "cpu_time": 2.7671999999999919e+05,
+      "time_unit": "ns",
+      "items_per_second": 1.8125891437925076e+09
+    },
+    {
+      "name": "BM_SOA/500000/iterations:10/repeats:10_median",
+      "family_index": 0,
+      "per_family_instance_index": 0,
+      "run_name": "BM_SOA/500000/iterations:10/repeats:10",
+      "run_type": "aggregate",
+      "repetitions": 10,
+      "threads": 1,
+      "aggregate_name": "median",
+      "aggregate_unit": "time",
+      "iterations": 10,
+      "real_time": 2.8233744669705629e+05,
+      "cpu_time": 2.6925000000000978e+05,
+      "time_unit": "ns",
+      "items_per_second": 1.8570154007097163e+09
+    },
+    {
+      "name": "BM_SOA/500000/iterations:10/repeats:10_stddev",
+      "family_index": 0,
+      "per_family_instance_index": 0,
+      "run_name": "BM_SOA/500000/iterations:10/repeats:10",
+      "run_type": "aggregate",
+      "repetitions": 10,
+      "threads": 1,
+      "aggregate_name": "stddev",
+      "aggregate_unit": "time",
+      "iterations": 10,
+      "real_time": 3.5953269965839136e+04,
+      "cpu_time": 1.6844240690645580e+04,
+      "time_unit": "ns",
+      "items_per_second": 1.0434586741234680e+08
+    },
+    {
+      "name": "BM_SOA/500000/iterations:10/repeats:10_cv",
+      "family_index": 0,
+      "per_family_instance_index": 0,
+      "run_name": "BM_SOA/500000/iterations:10/repeats:10",
+      "run_type": "aggregate",
+      "repetitions": 10,
+      "threads": 1,
+      "aggregate_name": "cv",
+      "aggregate_unit": "percentage",
+      "iterations": 10,
+      "real_time": 1.2303564299835310e-01,
+      "cpu_time": 6.0871063496117470e-02,
+      "time_unit": "ns",
+      "items_per_second": 5.7567302424653369e-02
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+Unable to determine clock rate from sysctl: hw.cpufrequency: No such file or directory
+This does not affect benchmark measurements, only the metadata output.
+***WARNING*** Failed to set thread affinity. Estimated CPU frequency may be incorrect.
+2026-09-19T16:51:08+02:00
+Running /Users/thorstensuckow/CLionProjects/helios-thesis/helios-thesis/src/benchmarks/040-ecs.speicherorganisation-vergleich/../cmake-build-relwdbginfo/040-ecs.speicherorganisation-vergleich_main_benchmark
+Run on (18 X 24 MHz CPU s)
+CPU Caches:
+  L1 Data 64 KiB
+  L1 Instruction 128 KiB
+  L2 Unified 8192 KiB (x18)
+Load Average: 4.15, 3.76, 3.87
+--------------------------------------------------------------------------------------------------------
+Benchmark                                              Time             CPU   Iterations UserCounters...
+--------------------------------------------------------------------------------------------------------
+BM_SOA/500000/iterations:10/repeats:10_mean       292218 ns       276720 ns           10 items_per_second=1.81259G/s
+BM_SOA/500000/iterations:10/repeats:10_median     282337 ns       269250 ns           10 items_per_second=1.85702G/s
+BM_SOA/500000/iterations:10/repeats:10_stddev      35953 ns        16844 ns           10 items_per_second=104.346M/s
+BM_SOA/500000/iterations:10/repeats:10_cv          12.30 %          6.09 %            10 items_per_second=5.76%
