@@ -1,7 +1,7 @@
 """Shared helpers of the evaluation scripts: suite lookup and directory layout discovery.
 
 Layout (relative to the scripts directory):
-    ../../../../thesis-measurements/suites/<suite>/n_<n>/v<k>/run_<id>/*.csv
+    ../../../thesis-measurements/suites/<suite>/n_<n>/v<k>/run_<id>/*.csv
 """
 
 from __future__ import annotations
@@ -9,7 +9,7 @@ from __future__ import annotations
 import re
 from pathlib import Path
 
-DEFAULT_ROOT = (Path(__file__).resolve().parent / "../../../../../thesis-measurements/suites").resolve()
+DEFAULT_ROOT = (Path(__file__).resolve().parent / "../../../thesis-measurements/suites").resolve()
 N_DIR_PATTERN = re.compile(r"n_(\d+)")
 
 

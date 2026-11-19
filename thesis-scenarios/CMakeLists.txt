@@ -3,9 +3,9 @@ project(helios-thesis-scenarios LANGUAGES C CXX)
 
 include(FetchContent)
 
-# This project lives in <workspace>/helios-thesis/src/thesis-scenarios; the helios-* modules
+# This project lives in <workspace>/helios-thesis/thesis-scenarios; the helios-* modules
 # are siblings of <workspace>/helios-thesis (override with -DHELIOS_WORKSPACE_DIR=...).
-get_filename_component(_HELIOS_WORKSPACE_DEFAULT "${CMAKE_CURRENT_LIST_DIR}/../../.." ABSOLUTE)
+get_filename_component(_HELIOS_WORKSPACE_DEFAULT "${CMAKE_CURRENT_LIST_DIR}/../.." ABSOLUTE)
 set(HELIOS_WORKSPACE_DIR "${_HELIOS_WORKSPACE_DEFAULT}" CACHE PATH "Directory containing the helios-* modules")
 
 set(
@@ -81,7 +81,7 @@ if(NOT TARGET helios::ecs)
     else()
         FetchContent_Declare(helios_ecs
                 GIT_REPOSITORY https://github.com/thorstensuckow/helios-ecs.git
-                GIT_TAG main
+                GIT_TAG master-thesis
         )
         FetchContent_MakeAvailable(helios_ecs)
     endif()
@@ -94,7 +94,7 @@ if(NOT TARGET helios::engine)
     else()
         FetchContent_Declare(helios_engine
                 GIT_REPOSITORY https://github.com/thorstensuckow/helios-engine.git
-                GIT_TAG main
+                GIT_TAG master-thesis
         )
         FetchContent_MakeAvailable(helios_engine)
     endif()
@@ -106,7 +106,7 @@ if(NOT TARGET helios::opengl)
     else()
         FetchContent_Declare(helios_opengl
                 GIT_REPOSITORY https://github.com/thorstensuckow/helios-opengl.git
-                GIT_TAG main
+                GIT_TAG master-thesis
         )
         FetchContent_MakeAvailable(helios_opengl)
     endif()
@@ -118,7 +118,7 @@ if(NOT TARGET helios::glfw)
     else()
         FetchContent_Declare(helios_glfw
                 GIT_REPOSITORY https://github.com/thorstensuckow/helios-glfw.git
-                GIT_TAG main
+                GIT_TAG master-thesis
         )
         FetchContent_MakeAvailable(helios_glfw)
     endif()
@@ -130,7 +130,7 @@ if(NOT TARGET helios::gameplay)
     else()
         FetchContent_Declare(helios_gameplay
                 GIT_REPOSITORY https://github.com/thorstensuckow/helios-gameplay.git
-                GIT_TAG main
+                GIT_TAG master-thesis
         )
         FetchContent_MakeAvailable(helios_gameplay)
     endif()
@@ -142,7 +142,7 @@ if(NOT TARGET helios::imgui)
     else()
         FetchContent_Declare(helios_imgui
                 GIT_REPOSITORY https://github.com/thorstensuckow/helios-imgui.git
-                GIT_TAG main
+                GIT_TAG master-thesis
         )
         FetchContent_MakeAvailable(helios_imgui)
     endif()
@@ -154,7 +154,7 @@ if(NOT TARGET helios::physics)
     else()
         FetchContent_Declare(helios_physics
                 GIT_REPOSITORY https://github.com/thorstensuckow/helios-physics.git
-                GIT_TAG main
+                GIT_TAG master-thesis
         )
         FetchContent_MakeAvailable(helios_physics)
     endif()

@@ -19,7 +19,7 @@ import plot_style  # noqa: E402
 
 plot_style.apply_style()
 
-DEFAULT_ROOT = (Path(__file__).resolve().parent / "../../../../../thesis-measurements/suites").resolve()
+DEFAULT_ROOT = (Path(__file__).resolve().parent / "../../../thesis-measurements/suites").resolve()
 
 # Fixed colour per variant (independent of the order of the variants in a suite)
 VARIANT_COLORS = {"v1": "#1f77b4", "v2": "#ff7f0e", "v3": "#2ca02c", "v5": "#d62728"}

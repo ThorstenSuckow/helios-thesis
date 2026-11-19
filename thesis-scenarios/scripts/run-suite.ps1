@@ -89,7 +89,7 @@ $ScriptDir = $PSScriptRoot
 # the script lives in <thesis-scenarios>\scripts; CMakeLists.txt and src\ are one level up
 $ProjectDir = Split-Path $ScriptDir -Parent
 $ScenariosDir = Join-Path $ProjectDir "src"
-if (-not $Out) { $Out = [System.IO.Path]::GetFullPath((Join-Path $ProjectDir "..\..\..\thesis-measurements\suites")) }
+if (-not $Out) { $Out = [System.IO.Path]::GetFullPath((Join-Path $ProjectDir "..\thesis-measurements\suites")) }
 $Out = if ([System.IO.Path]::IsPathRooted($Out)) { $Out } else { Join-Path (Get-Location).Path $Out }
 $BuildRoot = if ($env:BUILD_ROOT) { $env:BUILD_ROOT } else { Join-Path $ProjectDir "cmake-build-suite" }
 $CxxCompiler = $env:CXX
