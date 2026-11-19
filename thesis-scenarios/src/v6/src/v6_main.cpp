@@ -33,7 +33,7 @@ using namespace thesis::config;
 
 int main(int argc, char** argv) {
 
-    std::string PROGRAM_ID = "v3";
+    std::string PROGRAM_ID = "v6";
 
     #include "../../lib/include/Setup.inc"
     #include "../../lib/include/RenderSetup.inc"
